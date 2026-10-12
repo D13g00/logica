@@ -48,13 +48,13 @@ class arreglo{
             if (asistencia.get(i)) {
                 asistencias++;
             } else {
-                System.out.println("El canijillo detrue " + alumnos.get(i) + " no asistió a clase.");
+                System.out.println("El canijillo de " + alumnos.get(i) + " no asistió a clase.");
                 faltas++;
             }
         }
         System.out.println("Total de asistencias: " + asistencias);
         System.out.println("Total de faltas: " + faltas);
-        System.out.println("Tremendo exitoso, ya denle el titulo " + alumnos.get(2));
+        System.out.println("Tremendo exitoso, ya denle el titulo" + alumnos.get(2));
         
     }
 }     
